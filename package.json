@@ -6,12 +6,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "format": "prettier --write .",
+    "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "@material-tailwind/react": "^3.0.0-beta.24",
+    "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.10.0",
+    "framer-motion": "^12.19.1",
+    "jspdf": "^3.0.2",
+    "jspdf-autotable": "^5.0.2",
+    "lenis": "^1.3.17",
+    "lucide-react": "^0.522.0",
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-parallax-tilt": "^1.7.299",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.6.2",
+    "react-toastify": "^11.0.5",
+    "recharts": "^3.1.2",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -20,6 +35,9 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.7.4",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
